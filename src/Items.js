@@ -110,7 +110,7 @@ const Items = {
         },
         {
             name: 'Make search visible',
-            ease: 1,
+            ease: 3,
             impact: 3,
             keyMetric: ['% traffic w/ searches','search depth']
         },
