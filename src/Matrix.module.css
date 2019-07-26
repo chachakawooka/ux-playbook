@@ -78,9 +78,12 @@ table tr {
 }
 
 table td {
-    padding: 1em;
+    padding: 0.5em;
 }
 
+table tr td:first-child{
+    font-size: 2em;
+}
 table tr:nth-child(odd) {
     background: #a3afda20;
     color: #333;
@@ -104,4 +107,11 @@ table ul li {
 
 table ul li:after {
     content: ", ";
+}
+
+tr.done{
+    background: #cad3c2!important;
+}
+tr.done td:first-child{
+    color: #2c5c11;
 }

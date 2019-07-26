@@ -88,7 +88,7 @@ class Matrix extends React.Component {
                 </div>
                 <table>
                     {this.state.items.map((item,i) => { return (
-                        <tr  onClick={() => this.mark(i)}>
+                        <tr  onClick={() => this.mark(i)} className={item.done ? styles.done : null}>
                             <td>
                                 {item.done ? <FontAwesomeIcon icon={faCheck} /> : <FontAwesomeIcon icon={faTimes} />}
                             </td>
