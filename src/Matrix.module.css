@@ -1,0 +1,107 @@
+.gridContainer{
+    display: inline-grid;
+    grid-gap: 5px;
+    grid-template-areas:
+      "yaxis grid"
+      ".      xaxis";
+    height: 50vh;
+    
+    grid-template-columns: 0.2fr 1fr 0.2fr;
+    grid-template-rows: 1fr 0.2fr;
+    margin-top:2em;;
+    width: 100%;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    border-left: 1px solid #000;
+    border-bottom: 1px solid #000;
+    position: relative;
+}
+
+.yaxis {
+    align-self: center;
+    grid-area: yaxis;
+    transform: rotate(180deg);
+    writing-mode: vertical-lr;
+}
+
+.xaxis {
+    grid-area: xaxis;
+    justify-self: center;
+}
+
+.grid>div {
+    border: 1px solid #00000020;
+    content: " "
+}
+
+.grid_do {
+    background: #2b5c11;
+}
+
+.grid_maybe {
+    background: #bd921c;
+}
+
+.grid_dont {
+    background: #621223;
+}
+
+.grid_dots {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+
+.grid_dots li {
+    position: absolute;
+    list-style: none;
+    font-size: 2em;
+    color: #ffeebf;
+    cursor: pointer;
+}
+
+table {
+    border-spacing: 0;
+    border-collapse: collapse;
+    width: 100%;
+    text-align: left;
+}
+
+table tr {
+    cursor: pointer;
+}
+
+table td {
+    padding: 1em;
+}
+
+table tr:nth-child(odd) {
+    background: #a3afda20;
+    color: #333;
+}
+
+table tr:nth-child(even) {
+    background: #ffe9b620;
+    color: #333;
+}
+
+table ul {
+    display: inline;
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+table ul li {
+    display: inline;
+}
+
+table ul li:after {
+    content: ", ";
+}
