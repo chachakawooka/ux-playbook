@@ -44,12 +44,12 @@ class Matrix extends React.Component {
     }
 
     easeToText(i){
-        let easeText = Array('Hard','Medium','Easy');
+        let easeText = ['Hard','Medium','Easy'];
         return easeText[i-1];;
     }
 
     impactToText(i){
-        let easeText = Array('Low','Medium','High');
+        let easeText = ['Low','Medium','High'];
         return easeText[i-1];;
     }
 
@@ -73,7 +73,7 @@ class Matrix extends React.Component {
                         <ul className={styles.grid_dots}>
                             {this.state.items.map((item,i) => { return (
                                 <li style={item.style} onClick={() => this.mark(i)}>
-                                    <a data-tip data-for={'icon'+i}>
+                                    <a href="#" data-tip data-for={'icon'+i}>
                                     {item.done ? <FontAwesomeIcon icon={faCheck} /> : <FontAwesomeIcon icon={faTimes} />}
                                     </a>
                                     <ReactTooltip id={'icon'+i} effect='solid'>

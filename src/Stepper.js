@@ -7,8 +7,8 @@ class Stepper extends React.Component {
         return (
             <ol className={styles.steps}>
                 {this.props.steps.map((step,i) => { return (
-                    <li className={[styles.steps__item, (step==this.props.selected ? styles.active : null)].join(' ')} onClick={() => this.props.onClick(step)}>
-                        <a>{step}</a>
+                    <li className={[styles.steps__item, (step===this.props.selected ? styles.active : null)].join(' ')} onClick={() => this.props.onClick(step)}>
+                        <a href="#">{step}</a>
                     </li>
                 )})}
             </ol>

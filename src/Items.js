@@ -1,5 +1,3 @@
-import React from 'react';
-
 const Items = {
     "Home / Landing Page": [
         {
@@ -181,50 +179,6 @@ const Items = {
             ease: 1,
             impact: 3,
             keyMetric: ['time on site','cvr']
-        },
-    ],
-    "Category / product": [
-        {
-            name: 'Have a value prop at every point in the funnel, including category and product pages',
-            ease: 3,
-            impact: 3,
-            keyMetric: ['cvr','exit rate after add to cart']
-        },
-        {
-            name: 'Allow users to sort/filter large number of products easily',
-            ease: 2,
-            impact: 3,
-            keyMetric: ['bounce rate on category/search pages']
-        },
-        {
-            name: 'Make sure filtering is useful',
-            ease: 1,
-            impact: 3,
-            keyMetric: []
-        },
-        {
-            name: 'Add urgency elements',
-            ease: 1,
-            impact: 3,
-            keyMetric: ['cvr']
-        },
-        {
-            name: 'Display price info above the fold on product pages',
-            ease: 3,
-            impact: 3,
-            keyMetric: ['Add to cart','cvr','bounce rate']
-        },
-        {
-            name: 'Make sure product descriptions are readable',
-            ease: 3,
-            impact: 3,
-            keyMetric: ['Bounce rate on traffic w/ searches','search depth']
-        },
-        {
-            name: 'If large number of products, add reviews',
-            ease: 1,
-            impact: 3,
-            keyMetric: ['time on site','cvr']
         }
     ],
     "Conversion": [
@@ -298,8 +252,7 @@ const Items = {
             keyMetric: ['Form completion']
         },
         {
-            name: 'Reduce number of fields  \
-            ● Remove optional fields ● Use full name instead of first/last ● Hide company and address line 2 ● Check billing as shipping by default',
+            name: 'Reduce number of fields - Remove optional fields - Use full name instead of first/last - Hide company and address line 2 - Check billing as shipping by default',
             ease: 2,
             impact: 2,
             keyMetric: ['Form completion']
