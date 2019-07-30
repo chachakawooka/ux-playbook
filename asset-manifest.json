@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/ux-playbook/static/css/main.4ec7ff3f.chunk.css",
+    "main.js": "/ux-playbook/static/js/main.9bccad40.chunk.js",
+    "main.js.map": "/ux-playbook/static/js/main.9bccad40.chunk.js.map",
+    "runtime~main.js": "/ux-playbook/static/js/runtime~main.e22053b7.js",
+    "runtime~main.js.map": "/ux-playbook/static/js/runtime~main.e22053b7.js.map",
+    "static/js/2.c6461e1d.chunk.js": "/ux-playbook/static/js/2.c6461e1d.chunk.js",
+    "static/js/2.c6461e1d.chunk.js.map": "/ux-playbook/static/js/2.c6461e1d.chunk.js.map",
+    "index.html": "/ux-playbook/index.html",
+    "precache-manifest.57ae1b329f505e958ef59f728d272f43.js": "/ux-playbook/precache-manifest.57ae1b329f505e958ef59f728d272f43.js",
+    "service-worker.js": "/ux-playbook/service-worker.js",
+    "static/css/main.4ec7ff3f.chunk.css.map": "/ux-playbook/static/css/main.4ec7ff3f.chunk.css.map"
+  }
+}
