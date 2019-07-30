@@ -73,9 +73,9 @@ class Matrix extends React.Component {
                         <ul className={styles.grid_dots}>
                             {this.state.items.map((item,i) => { return (
                                 <li style={item.style} onClick={() => this.mark(i)}>
-                                    <a href="#" data-tip data-for={'icon'+i}>
+                                    <span data-tip data-for={'icon'+i}>
                                     {item.done ? <FontAwesomeIcon icon={faCheck} /> : <FontAwesomeIcon icon={faTimes} />}
-                                    </a>
+                                    </span>
                                     <ReactTooltip id={'icon'+i} effect='solid'>
                                         {item.name}
                                     </ReactTooltip>

@@ -63,7 +63,7 @@
     text-shadow: 0 1px 0 #333;
 }
 
-.steps__item:hover a {
+.steps__item:hover span {
     color: #fff;
 }
 .steps__item:hover::after{
@@ -75,7 +75,7 @@
     background-color: #516043;
     text-shadow: 0 1px 0 #333;
 }
-.steps__item.active a {
+.steps__item.active span {
     color: #fff;
 }
 .steps__item.active::after{
