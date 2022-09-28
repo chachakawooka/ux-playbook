@@ -15,7 +15,7 @@
     cursor: pointer;
 }
 
-.steps__item a {
+.steps__item span {
     color: #333;
     text-decoration: none;
     padding: 12px 0 12px 35px;
